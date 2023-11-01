@@ -9,11 +9,17 @@ background-color: #121212;
 const HeaderContainer = styled.div`
     margin-left: auto;
     margin-right: auto;
-    min-height: 98px;
+    min-height: 88px;
   max-width: 1440px;
-  padding: 0 60px;
+  padding: 0 15px;
   display: flex;
   justify-content: space-between;
+
+  @media screen and (min-width: 768px) {
+  padding: 0 60px;
+  min-height: 98px;
+    }
+  
 `
 //Logo
 
@@ -26,15 +32,27 @@ const LogoWrapper = styled.div`
 
 const LogoLink = styled(NavLink)`
   font-family: "Le Jour", sans-serif;
-  font-size: 56px;
+  font-size: 40px;
   line-height: 1;
   color: #f6f6f6;
+
+
+  @media screen and (min-width: 768px) {
+    font-size: 56px;
+  line-height: 1;
+    }
 `;
 
 const AdditionalText = styled.span`
   text-transform: uppercase;
   color: #f6f6f6;
   font-weight: 500;
+  font-size: 12px;
+  line-height: 1;
+
+  @media screen and (min-width: 768px) {
+    font-size: 18px;
+    }
 `;
 
 

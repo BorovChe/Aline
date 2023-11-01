@@ -10,6 +10,9 @@ const HeroSlider = () => {
     <HeroSection>
       <HeroContainer>
         <Fade
+        arrows={false}
+          canSwipe={true}
+          pauseOnHover={true}
           onChange={function noRefCheck() {}}
           onStartChange={function noRefCheck() {}}
         >

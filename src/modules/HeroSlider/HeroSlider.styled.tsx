@@ -2,7 +2,7 @@ import styled from "@emotion/styled";
 
 const HeroSection = styled.section`
   width: 100%;
-  /* background-color: #121212; */
+  background-color: #121212;
 `;
 
 const HeroContainer = styled.div`
