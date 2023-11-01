@@ -1,0 +1,52 @@
+@import-normalize;
+@import url("https://fonts.cdnfonts.com/css/le-jour");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;500&display=swap");
+@import "react-slideshow-image/dist/styles.css";
+
+iframe#webpack-dev-server-client-overlay{display:none!important}
+
+body {
+  margin: 0;
+  font-weight: 400;
+  color: #121212;
+  background-color: #f6f6f6;
+  font-family: "Raleway", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Reset styles */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  display: block;
+  color: currentColor;
+  text-decoration: none;
+}
+
+img {
+  font-size: 0;
+  max-width: 100%;
+  height: auto;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+
+  list-style: none;
+}
+
+button {
+  padding: 0;
+  cursor: pointer;
+}
