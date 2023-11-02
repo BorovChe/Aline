@@ -3,6 +3,11 @@ import styled from "@emotion/styled";
 const HeroSection = styled.section`
   width: 100%;
   background-color: #121212;
+  padding-top: 80px;
+
+  @media screen and (min-width: 768px) {
+    padding-top: 94px;
+}
 `;
 
 const HeroContainer = styled.div`
@@ -20,8 +25,6 @@ const HeroContainer = styled.div`
 `;
 
 const imagesWrapper = {
-  marginRight: "auto",
-  marginLeft: "auto",
     width: "100%",
     height: "100%",
     display: "flex",
