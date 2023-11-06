@@ -1,14 +1,15 @@
-import { HeroSection, HeroContainer, imagesWrapper, Images } from "./HeroSlider.styled";
+import { HeroStyled, imagesWrapper, Images } from "./HeroSlider.styled";
+import { SectionContainer } from "UI/SectionContainer/SectionContainer";
 
 import { Fade } from "react-slideshow-image";
 import "react-slideshow-image/dist/styles.css";
 
 import imgData from "./HeroImages";
 
-const HeroSlider = () => {
+const HeroSection = () => {
   return (
-    <HeroSection>
-      <HeroContainer>
+    <HeroStyled>
+      <SectionContainer>
         <Fade
         arrows={false}
           canSwipe={true}
@@ -37,9 +38,9 @@ const HeroSlider = () => {
             ))}
           </div>
         </Fade>
-      </HeroContainer>
-    </HeroSection>
+      </SectionContainer>
+    </HeroStyled>
   );
 };
 
-export default HeroSlider;
+export default HeroSection;

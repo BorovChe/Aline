@@ -20,9 +20,9 @@ const HeaderStyle = styled.header`
 const HeaderContainer = styled.div`
   margin-left: auto;
   margin-right: auto;
-  min-height: 80px;
+  min-height: 68px;
   max-width: 1440px;
-  padding: 0 15px;
+  padding: 0 16px;
   display: flex;
   justify-content: space-between;
 
