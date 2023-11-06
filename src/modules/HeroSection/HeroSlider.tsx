@@ -18,7 +18,7 @@ const HeroSection = () => {
           onStartChange={function noRefCheck() {}}
         >
           <div style={imagesWrapper}>
-            {imgData.beach.map((url, index) => (
+            {imgData.white.map((url, index) => (
               <Images
                 loading="lazy"
                 key={index}
@@ -28,7 +28,17 @@ const HeroSection = () => {
             ))}
             </div>
           <div style={imagesWrapper}>
-            {imgData.white.map((url, index) => (
+            {imgData.wedding.map((url, index) => (
+              <Images
+                loading="lazy"
+                key={index}
+                src={url}
+                alt={url}
+              />
+            ))}
+          </div>
+          <div style={imagesWrapper}>
+            {imgData.beach.map((url, index) => (
               <Images
                 loading="lazy"
                 key={index}
