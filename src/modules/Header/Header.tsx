@@ -13,8 +13,8 @@ const Header = () => {
   return (
     <HeaderStyle>
       <HeaderContainer>
-      <LogoWrapper>
-        <LogoLink to="/">Aline</LogoLink>
+      <LogoWrapper to="/">
+        <LogoLink>Aline</LogoLink>
         <AdditionalText>boutique</AdditionalText>
       </LogoWrapper>
       <NavStyle>

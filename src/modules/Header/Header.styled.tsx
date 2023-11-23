@@ -28,26 +28,26 @@ const HeaderContainer = styled.div`
 
   @media screen and (min-width: 768px) {
     padding: 0 60px;
-    min-height: 94px;
+    min-height: 80px;
   }
 `;
 //Logo
 
-const LogoWrapper = styled.div`
+const LogoWrapper = styled(NavLink)`
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 `;
 
-const LogoLink = styled(NavLink)`
+const LogoLink = styled.div`
   font-family: "Le Jour", sans-serif;
   font-size: 40px;
   line-height: 1;
   color: #f6f6f6;
 
   @media screen and (min-width: 768px) {
-    font-size: 56px;
+    font-size: 50px;
     line-height: 1;
   }
 `;
@@ -55,15 +55,15 @@ const LogoLink = styled(NavLink)`
 const AdditionalText = styled.span`
   text-transform: uppercase;
   color: #f6f6f6;
-  /* font-weight: 500; */
+  font-weight: 500;
   font-size: 12px;
   line-height: 1;
 
   @media screen and (min-width: 768px) {
-    font-size: 18px;
+    font-size: 16px;
   }
 `;
-
+ 
 //Navigation
 
 const NavStyle = styled.nav`

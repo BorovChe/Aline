@@ -7,11 +7,15 @@ import {
   summer,
 } from "UI/images/CategoryListImages/index";
 
+const media = window.matchMedia("(max-width: 768px)").matches;
+
 const CategorySection = () => {
+  console.log(console.log(window.innerWidth));
   return (
     <CategoryStyled>
       <SectionContainer>
         <SectionTitle>FASHION IS MY PROFESSION</SectionTitle>
+        {media ? <h2>mobile</h2> :<h2>desc</h2>}
         <CategoryList>
           <CategoryItem>
             <CategoryTitle>Autumn</CategoryTitle>
