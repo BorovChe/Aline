@@ -7,11 +7,10 @@ const HeaderStyle = styled.header`
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 999;
   transition: background-color .3s cubic-bezier(.4, 0, .2, 1),
     backdrop-filter .3s cubic-bezier(.4, 0, .2, 1), box-shadow .3s cubic-bezier(.4, 0, .2, 1);
   background-color: #121212;
-
+z-index: 111;
   background-color: #0c0c0cbf;
     backdrop-filter: blur(5px);
     box-shadow: 0 4px 12px #191c2666;
@@ -70,6 +69,7 @@ const NavStyle = styled.nav`
   display: flex;
   gap: 16px;
   align-items: center;
+  justify-content: center;
 `;
 
 const NavLinkStyle = styled(NavLink)`

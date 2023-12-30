@@ -1,5 +1,5 @@
 import React, { FC } from "react";
-import sprite from "../svgSprite/sprite.svg";
+import sprite from "UI/svgSprite/sprite.svg";
 
 
 interface IconProps {

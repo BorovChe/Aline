@@ -7,7 +7,8 @@ import {
   NavLinkStyle,
   HeaderContainer,
 } from "./Header.styled";
-import Icon from "UI/IconSvg/IconSvg";
+import Icon from "components/SvgComponent/IconSvg";
+import ProfileButton from "./components/NavProfileButton/NavProfileButton";
 
 const Header = () => {
   return (
@@ -18,9 +19,7 @@ const Header = () => {
         <AdditionalText>boutique</AdditionalText>
       </LogoWrapper>
       <NavStyle>
-        <NavLinkStyle to="/profile">
-          <Icon width={"28"} height={"28"} fill="#f6f6f6" id="#profile" />
-        </NavLinkStyle>
+       <ProfileButton/>
         <NavLinkStyle to="/favorites">
           <Icon width={"28"} height={"28"} fill="#f6f6f6" id="#favorite" />
         </NavLinkStyle>

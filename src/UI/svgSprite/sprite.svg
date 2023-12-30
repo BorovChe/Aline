@@ -14,4 +14,10 @@
 <path d="M17,18H15A11,11,0,0,0,4,29a1,1,0,0,0,1,1H27a1,1,0,0,0,1-1A11,11,0,0,0,17,18ZM6.06,28A9,9,0,0,1,15,20h2a9,9,0,0,1,8.94,8Z"/>
 </g>
 </symbol>
+<symbol id="arrowBack" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg">
+<g id="layer1">
+<path d="M 3.5 7 L 0 10.5 L 3.5 14 L 5 14 L 2 11 L 19 11 L 19 10 L 2 10 L 5 7 L 3.5 7 z " style="fill:#222222; fill-opacity:1; stroke:none; stroke-width:0px;"/>
+</g>
+</symbol>
 </svg>
+

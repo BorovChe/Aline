@@ -1,5 +1,5 @@
 import { HeroStyled } from "./HeroSection.styled";
-import { SectionContainer } from "UI/SectionContainer/SectionContainer";
+import { SectionContainer } from "components/SectionContainer/SectionContainer.styled";
 import HeroSlider from "./components/HeroSlider/HeroSlider";
 
 

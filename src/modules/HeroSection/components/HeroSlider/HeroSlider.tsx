@@ -3,11 +3,6 @@ import "react-slideshow-image/dist/styles.css";
 import { imagesWrapper, Images } from "./HeroSlider.styled";
 import imgData from "../HeroImages/HeroImages";
 
-interface Photo {
-  white: string[];
-  wedding: string[];
-  beach: string[];
-}
 
 const outputHeroPhotos = (data: any) => {
   const test = data;
