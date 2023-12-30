@@ -1,10 +1,10 @@
-import { createSlice } from "@reduxjs/toolkit";
+// import { createSlice } from "@reduxjs/toolkit";
 
-const initialState = {
-  user: { name: "", email: "", password: "" },
-  token: null,
-  isLoggedIn: false,
-};
+// const initialState = {
+//   user: { name: "", email: "", password: "" },
+//   token: null,
+//   isLoggedIn: false,
+// };
 
 // const authReducer = createSlice({
 //   name: "auth",
@@ -23,5 +23,5 @@ const initialState = {
 //   },
 // });
 
-
+export {}
 // export default authReducer.reducer
