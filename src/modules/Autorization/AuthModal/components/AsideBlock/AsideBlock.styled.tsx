@@ -20,6 +20,7 @@ height: 600px;
 
 const DescriptionBlock = styled.div`
     font-weight: 500;
+    font-size: 14px;
     max-width: 74%;
     border-radius: 20px;
     padding: 16px;

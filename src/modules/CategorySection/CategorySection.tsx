@@ -11,7 +11,8 @@ const CategorySection = () => {
     <CategoryStyled>
       <SectionContainer>
         <SectionTitle>FASHION IS MY PROFESSION</SectionTitle>
-        {isScreenDesc ? <SeasonListDesc/> : <SeasonListMob />}
+        {/* {isScreenDesc ? <SeasonListDesc/> : <SeasonListMob />} */}
+        <SeasonListMob />
       </SectionContainer>
     </CategoryStyled>
   );
