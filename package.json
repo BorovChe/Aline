@@ -2,7 +2,7 @@
   "name": "aline",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://BorovChe.github.io/Aline/",
+  "homepage": "https://BorovChe.github.io/Aline",
   "dependencies": {
     "@emotion/styled": "^11.11.0",
     "@reduxjs/toolkit": "^1.9.7",
@@ -54,6 +54,6 @@
   },
   "devDependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
-    "gh-pages": "^6.0.0"
+    "gh-pages": "^6.1.1"
   }
 }
