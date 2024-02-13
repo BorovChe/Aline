@@ -19,15 +19,15 @@ z-index: 111;
 const HeaderContainer = styled.div`
   margin-left: auto;
   margin-right: auto;
-  min-height: 68px;
-  max-width: 1440px;
-  padding: 0 16px;
+  min-height: 60px;
+  max-width: 1200px;
+  padding: 0 10px;
   display: flex;
   justify-content: space-between;
 
   @media screen and (min-width: 768px) {
-    padding: 0 60px;
-    min-height: 80px;
+    padding: 0 20px;
+  min-height: 66px;
   }
 `;
 //Logo
@@ -41,13 +41,12 @@ const LogoWrapper = styled(NavLink)`
 
 const LogoLink = styled.div`
   font-family: "Le Jour", sans-serif;
-  font-size: 40px;
+  font-size: 34px;
   line-height: 1;
   color: #f6f6f6;
 
   @media screen and (min-width: 768px) {
-    font-size: 50px;
-    line-height: 1;
+    font-size: 40px;
   }
 `;
 
@@ -59,7 +58,7 @@ const AdditionalText = styled.span`
   line-height: 1;
 
   @media screen and (min-width: 768px) {
-    font-size: 16px;
+    font-size: 12px;
   }
 `;
  
@@ -67,7 +66,7 @@ const AdditionalText = styled.span`
 
 const NavStyle = styled.nav`
   display: flex;
-  gap: 16px;
+  gap: 12px;
   align-items: center;
   justify-content: center;
 `;

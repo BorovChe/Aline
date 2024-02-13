@@ -6,7 +6,7 @@ const SectionContainer = styled.div`
   max-width: 767px;
 
   @media screen and (min-width: 768px) {
-    max-width: 1440px;
+    max-width: 1200px;
   }
 `;
 

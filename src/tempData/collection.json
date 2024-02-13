@@ -1,0 +1,154 @@
+[
+    {
+      "season": "Spring",
+      "seasonImage": "https://i.ibb.co/BB7sBLk/spring.jpg",
+      "collections": [
+        {
+          "title": "Spring-Summer 2024 Collection by Stella McCartney",
+          "previewImage": "url/to/preview_image_spring.jpg",
+          "items": [
+            {
+              "images": [
+                "url/to/item_image1_1.jpg",
+                "url/to/item_image1_2.jpg",
+                "url/to/item_image1_3.jpg",
+                "url/to/item_image1_4.jpg"
+              ],
+              "description": "Item 1 Description",
+              "price": 49.99
+            }
+          ]
+        },
+        {
+          "title": "Spring-Summer 2022 Collection by Alexander McQueen",
+          "previewImage": "url/to/preview_image_spring_2022.jpg",
+          "items": [
+            {
+              "images": [
+                "url/to/item_image9_1.jpg",
+                "url/to/item_image9_2.jpg",
+                "url/to/item_image9_3.jpg",
+                "url/to/item_image9_4.jpg"
+              ],
+              "description": "Item 9 Description",
+              "price": 89.99
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "Summer",
+      "seasonImage": "https://i.ibb.co/p11b423/summer.jpg",
+      "collections": [
+        {
+          "title": "Spring-Summer 2024 Collection by Diane von Fürstenberg",
+          "previewImage": "url/to/preview_image_summer.jpg",
+          "items": [
+            {
+              "images": [
+                "url/to/item_image3_1.jpg",
+                "url/to/item_image3_2.jpg",
+                "url/to/item_image3_3.jpg",
+                "url/to/item_image3_4.jpg"
+              ],
+              "description": "Item 3 Description",
+              "price": 59.99
+            }
+          ]
+        },
+        {
+          "title": "Spring-Summer 2023 Collection by Gucci",
+          "previewImage": "url/to/preview_image_summer_2023.jpg",
+          "items": [
+            {
+              "images": [
+                "url/to/item_image11_1.jpg",
+                "url/to/item_image11_2.jpg",
+                "url/to/item_image11_3.jpg",
+                "url/to/item_image11_4.jpg"
+              ],
+              "description": "Item 11 Description",
+              "price": 79.99
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "Autumn",
+      "seasonImage": "https://i.ibb.co/Hgd97bh/autumn.jpg",
+      "collections": [
+        {
+          "title": "Fall-Winter 2024 Collection by Victoria Beckham",
+          "previewImage": "url/to/preview_image_autumn.jpg",
+          "items": [
+            {
+              "images": [
+                "url/to/item_image5_1.jpg",
+                "url/to/item_image5_2.jpg",
+                "url/to/item_image5_3.jpg",
+                "url/to/item_image5_4.jpg"
+              ],
+              "description": "Item 5 Description",
+              "price": 69.99
+            }
+          ]
+        },
+        {
+          "title": "Fall-Winter 2021 Collection by Prada",
+          "previewImage": "url/to/preview_image_autumn_2021.jpg",
+          "items": [
+            {
+              "images": [
+                "url/to/item_image13_1.jpg",
+                "url/to/item_image13_2.jpg",
+                "url/to/item_image13_3.jpg",
+                "url/to/item_image13_4.jpg"
+              ],
+              "description": "Item 13 Description",
+              "price": 79.99
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "Winter",
+      "seasonImage": "https://i.ibb.co/3zQTTQD/winter.jpg",
+      "collections": [
+        {
+          "title": "Fall-Winter 2024 Collection by Carolina Herrera",
+          "previewImage": "url/to/preview_image_winter.jpg",
+          "items": [
+            {
+              "images": [
+                "url/to/item_image7_1.jpg",
+                "url/to/item_image7_2.jpg",
+                "url/to/item_image7_3.jpg",
+                "url/to/item_image7_4.jpg"
+              ],
+              "description": "Item 7 Description",
+              "price": 79.99
+            }
+          ]
+        },
+        {
+          "title": "Fall-Winter 2022 Collection by Chanel",
+          "previewImage": "url/to/preview_image_winter_2022.jpg",
+          "items": [
+            {
+              "images": [
+                "url/to/item_image15_1.jpg",
+                "url/to/item_image15_2.jpg",
+                "url/to/item_image15_3.jpg",
+                "url/to/item_image15_4.jpg"
+              ],
+              "description": "Item 15 Description",
+              "price": 99.99
+            }
+          ]
+        }
+      ]
+    }
+  ]

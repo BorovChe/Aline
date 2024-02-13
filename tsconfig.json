@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "typeRoots" : ["node_modules/@types", "src/types"],
     "baseUrl": "src",
     "target": "es5",
     "lib": [
@@ -23,5 +24,5 @@
   },
   "include": [
     "src"
-, "public/menuItems.js"  ]
+, "public/menuItems.js", "src/UI/images/CategoryListImages"  ]
 }

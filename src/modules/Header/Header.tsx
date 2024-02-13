@@ -21,10 +21,10 @@ const Header = () => {
       <NavStyle>
        <ProfileButton/>
         <NavLinkStyle to="/favorites">
-          <Icon width={"28"} height={"28"} fill="#f6f6f6" id="#favorite" />
+          <Icon width={"24"} height={"24"} fill="#f6f6f6" id="#favorite" />
         </NavLinkStyle>
         <NavLinkStyle to="/cart">
-          <Icon width={"28"} height={"28"} stroke="#f6f6f6" id="#cart" />
+          <Icon width={"24"} height={"24"} stroke="#f6f6f6" id="#cart" />
         </NavLinkStyle>
       </NavStyle>
       </HeaderContainer>

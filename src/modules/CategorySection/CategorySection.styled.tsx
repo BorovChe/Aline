@@ -4,7 +4,7 @@ const CategoryStyled = styled.section`
   padding: 20px 16px;
 
   @media screen and (min-width: 768px) {
-    padding: 20px 60px;
+    padding: 20px 20px;
   }
 `;
 

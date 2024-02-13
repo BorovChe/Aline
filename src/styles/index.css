@@ -5,11 +5,13 @@
 
 iframe#webpack-dev-server-client-overlay{display:none!important}
 
+@import url('./theme.css');
+
 body {
   margin: 0;
   font-weight: 400;
-  color: #121212;
-  background-color: #f6f6f6;
+  color: var(--color-primary-black);
+  background-color: var(--color-primary-white);
   font-family: "Raleway", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;

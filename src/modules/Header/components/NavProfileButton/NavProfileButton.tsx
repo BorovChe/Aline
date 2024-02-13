@@ -10,7 +10,7 @@ const ProfileButton = () => {
   return (
     <>
     <Button onClick={() => {toggleModal()}} type="button">
-      <Icon width={"28"} height={"28"} fill="#f6f6f6" id="#profile" />
+      <Icon width={"24"} height={"24"} fill="#f6f6f6" id="#profile" />
     </Button>
     {showModal && <AuthModal onClose={toggleModal}/>}
     </>

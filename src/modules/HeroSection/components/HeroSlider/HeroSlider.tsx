@@ -4,9 +4,9 @@ import { imagesWrapper, Images } from "./HeroSlider.styled";
 import imgData from "../HeroImages/HeroImages";
 
 
+
 const outputHeroPhotos = (data: any) => {
-  const test = data;
-  return test.map((url: string, index: number) => (
+  return data.map((url: string, index: number) => (
     <Images loading="lazy" key={index} src={url} alt={url} />
   ));
 };
