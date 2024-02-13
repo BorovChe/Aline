@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Aline/static/css/main.955acadf.css",
+    "main.js": "/Aline/static/js/main.8fe36f9a.js",
+    "static/media/beach2.jpg": "/Aline/static/media/beach2.11a9f3d481265030501b.jpg",
+    "static/media/wedding1.jpg": "/Aline/static/media/wedding1.b5b23c86af81c854ff3e.jpg",
+    "static/media/wedding3.jpg": "/Aline/static/media/wedding3.63a0b9d219832bc89ebd.jpg",
+    "static/media/wedding2.jpg": "/Aline/static/media/wedding2.9a4c48b2f57194bfc4c0.jpg",
+    "static/media/beach3.jpg": "/Aline/static/media/beach3.e8b28831bdbeeee7d266.jpg",
+    "static/media/beach1.jpg": "/Aline/static/media/beach1.cc187172ec1d1e0b8866.jpg",
+    "static/media/white2.jpg": "/Aline/static/media/white2.e89bf37fe27019bf999d.jpg",
+    "static/media/white1.jpg": "/Aline/static/media/white1.0e0d56f709206432b690.jpg",
+    "static/media/auth.jpg": "/Aline/static/media/auth.1d739690e6079bdf83a0.jpg",
+    "static/media/white3.jpg": "/Aline/static/media/white3.819f581547b0a1e19ace.jpg",
+    "static/media/sprite.svg": "/Aline/static/media/sprite.62d12be4d1af5873ceca31f170b7d533.svg",
+    "index.html": "/Aline/index.html",
+    "main.955acadf.css.map": "/Aline/static/css/main.955acadf.css.map",
+    "main.8fe36f9a.js.map": "/Aline/static/js/main.8fe36f9a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.955acadf.css",
+    "static/js/main.8fe36f9a.js"
+  ]
+}
