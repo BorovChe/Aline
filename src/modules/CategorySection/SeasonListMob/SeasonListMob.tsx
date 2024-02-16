@@ -1,4 +1,10 @@
-import  collection  from "tempData/collection.json";
+import collection from "tempData/collection.json";
+import {
+  imgAnimEven,
+  imgAnimOdd,
+  textAnimEven,
+  textAnimOdd,
+} from "./seasonAnimation";
 
 import {
   SeasonListStyle,
@@ -6,18 +12,44 @@ import {
   SeasonTitle,
   SeasonImg,
   SeasonDesc,
+  SeasonWrapper,
 } from "./SeasonListMob.styled";
 
 const SeasonListMob = () => {
-  // console.log(collection);
   return (
     <SeasonListStyle>
-      {collection.map(({season, seasonImage, seasonDescription}, i) => {
+      {collection.map(({ season, seasonImage, seasonDescription }, i) => {
+        const evenOrOddFunc = (index: any, evenAnim: any, oddAnim: any) => {
+          if (index % 2 === 0) {
+            return evenAnim;
+          }
+          return oddAnim;
+        };
+
         return (
           <SeasonItem key={i}>
-            <SeasonTitle>{season}</SeasonTitle>
-            <SeasonDesc>{seasonDescription}</SeasonDesc>
-            <SeasonImg src={seasonImage} alt={season} />
+            <SeasonWrapper
+              initial="hidden"
+              whileInView="visible"
+              animate={{ pathLength: 1 }}
+            >
+              <SeasonTitle
+                variants={evenOrOddFunc(i, textAnimEven, textAnimOdd)}
+              >
+                {season}
+              </SeasonTitle>
+              <SeasonDesc
+                variants={evenOrOddFunc(i, textAnimEven, textAnimOdd)}
+              >
+                {seasonDescription}
+              </SeasonDesc>
+              <SeasonImg
+                loading="lazy"
+                variants={evenOrOddFunc(i, imgAnimEven, imgAnimOdd)}
+                src={seasonImage}
+                alt={season}
+              />
+            </SeasonWrapper>
           </SeasonItem>
         );
       })}

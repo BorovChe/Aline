@@ -1,4 +1,5 @@
 import styled from "@emotion/styled";
+import { motion } from "framer-motion";
 
 const SeasonListStyle = styled.ul`
   display: flex;
@@ -12,7 +13,7 @@ const SeasonListStyle = styled.ul`
   }
 `;
 
-const SeasonItem = styled.li`
+const SeasonItem = styled(motion.li)`
   position: relative;
   display: flex;
   justify-content: flex-start;
@@ -42,8 +43,32 @@ const SeasonItem = styled.li`
   }
 `;
 
-const SeasonImg = styled.img`
+const SeasonWrapper = styled(motion.div)`
   width: calc(70%);
+`;
+
+const SeasonTitle = styled(motion.h3)`
+  position: absolute;
+  top: 46%;
+  z-index: 111;
+  width: 100px;
+
+  font-size: 20px;
+  letter-spacing: 1.5px;
+  font-weight: 700;
+  text-transform: uppercase;
+`;
+
+const SeasonDesc = styled(motion.span)`
+  position: absolute;
+  font-size: 14px;
+  top: 54%;
+  width: 100px;
+  z-index: 222;
+`;
+
+const SeasonImg = styled(motion.img)`
+  width: 100%;
   max-width: 354px;
   box-sizing: border-box;
   box-shadow: 0 5px 14px 1px rgba(0, 0, 0, 0.2);
@@ -55,23 +80,11 @@ const SeasonImg = styled.img`
   }
 `;
 
-const SeasonTitle = styled.h3`
-  position: absolute;
-  top: 46%;
-
-  width: 100px;
-
-  font-size: 20px;
-  letter-spacing: 1.5px;
-  font-weight: 700;
-  text-transform: uppercase;
-`;
-
-const SeasonDesc = styled.span`
-  position: absolute;
-  font-size: 14px;
-  top: 54%;
-  width: 100px;
-`;
-
-export { SeasonListStyle, SeasonItem, SeasonTitle, SeasonImg, SeasonDesc };
+export {
+  SeasonListStyle,
+  SeasonItem,
+  SeasonTitle,
+  SeasonImg,
+  SeasonDesc,
+  SeasonWrapper,
+};
