@@ -6,18 +6,18 @@ const imgAnimEven = {
   visible: {
     x: 0,
     opacity: [0, 0.5, 1],
-  },
+  }
 };
 
 const imgAnimOdd = {
   hidden: {
     x: 10,
-    opacity: [0, 0.5, 1],
+    opacity: 0,
   },
   visible: {
     x: 0,
-    opacity: 1,
-  },
+    opacity: [0, 0.5, 1],
+  }
 };
 
 const textAnimEven = {
@@ -28,8 +28,7 @@ const textAnimEven = {
   visible: {
     x: [0, 20, 0],
     opacity: 1,
-  },
-  transition: { duration: 3, times: [0, 0.2, 1] },
+  }
 };
 
 const textAnimOdd = {
@@ -40,8 +39,7 @@ const textAnimOdd = {
   visible: {
     x: [0, -20, 0],
     opacity: 1,
-  },
-  transition: { duration: 2, times: [0, 0.5, 1] },
+  }
 };
 
 export { imgAnimEven, imgAnimOdd, textAnimEven, textAnimOdd };

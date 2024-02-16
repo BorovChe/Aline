@@ -33,17 +33,17 @@ const SeasonListMob = () => {
               whileInView="visible"
               animate={{ pathLength: 1 }}
             >
-              <SeasonTitle
+              <SeasonTitle   transition={{ delay: 0.3 }}
                 variants={evenOrOddFunc(i, textAnimEven, textAnimOdd)}
               >
                 {season}
               </SeasonTitle>
-              <SeasonDesc
+              <SeasonDesc   transition={{ delay: 0.4 }}
                 variants={evenOrOddFunc(i, textAnimEven, textAnimOdd)}
               >
                 {seasonDescription}
               </SeasonDesc>
-              <SeasonImg
+              <SeasonImg transition={{ delay: 0.3 }}
                 loading="lazy"
                 variants={evenOrOddFunc(i, imgAnimEven, imgAnimOdd)}
                 src={seasonImage}
