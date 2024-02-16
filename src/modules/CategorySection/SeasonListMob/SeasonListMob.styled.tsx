@@ -71,13 +71,10 @@ const SeasonDesc = styled(motion.span)`
 const SeasonImgWrapper = styled.div`
   width: 100%;
   height: 100%;
-  background-color: transparent;
   transition: transform 0.5s;
-  filter: blur(0px);
 
   &:hover {
     transform: scale(1.05);
-    filter: blur(0px);
   }
 `;
 
@@ -85,15 +82,7 @@ const SeasonImg = styled(motion.img)`
   width: 100%;
   height: 100%;
   max-width: 354px;
-  box-sizing: border-box;
-  box-shadow: 0 5px 14px 1px rgba(0, 0, 0, 0.2);
-  transition: transform 0.5s;
-  filter: blur(0px);
-
-  &:hover {
-    transform: scale(1.05);
-    filter: blur(0px);
-  }
+  box-shadow: 0 5px 8px 1px rgba(0, 0, 0, 0.2);
 `;
 
 export {

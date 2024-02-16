@@ -45,7 +45,6 @@ const SeasonListMob = () => {
               </SeasonDesc>
               <SeasonImgWrapper>
               <SeasonImg transition={{ delay: 0.3 }}
-                loading="lazy"
                 variants={evenOrOddFunc(i, imgAnimEven, imgAnimOdd)}
                 src={seasonImage}
                 alt={season}
