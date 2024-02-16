@@ -5,7 +5,7 @@ const imgAnimEven = {
   },
   visible: {
     x: 0,
-    opacity: [0, 0.5, 1],
+    opacity: 1,
   }
 };
 
@@ -16,7 +16,7 @@ const imgAnimOdd = {
   },
   visible: {
     x: 0,
-    opacity: [0, 0.5, 1],
+    opacity: 1,
   }
 };
 
