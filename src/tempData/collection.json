@@ -1,7 +1,8 @@
 [
     {
       "season": "Spring",
-      "seasonImage": "https://i.ibb.co/BB7sBLk/spring.jpg",
+      "seasonDescription": "Brings the magic of bloom and hope",
+      "seasonImage": "https://i.ibb.co/mHhRT3p/spring1.jpg",
       "collections": [
         {
           "title": "Spring-Summer 2024 Collection by Stella McCartney",
@@ -39,6 +40,7 @@
     },
     {
       "season": "Summer",
+      "seasonDescription": "Song of the sun and dance of the summer winds",
       "seasonImage": "https://i.ibb.co/p11b423/summer.jpg",
       "collections": [
         {
@@ -77,6 +79,7 @@
     },
     {
       "season": "Autumn",
+      "seasonDescription": "Colorful landscape of gold and diamonds",
       "seasonImage": "https://i.ibb.co/Hgd97bh/autumn.jpg",
       "collections": [
         {
@@ -115,6 +118,7 @@
     },
     {
       "season": "Winter",
+      "seasonDescription": "Is a quiet peace under its white blanket",
       "seasonImage": "https://i.ibb.co/3zQTTQD/winter.jpg",
       "collections": [
         {
