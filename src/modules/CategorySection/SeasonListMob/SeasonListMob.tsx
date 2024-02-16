@@ -13,6 +13,7 @@ import {
   SeasonImg,
   SeasonDesc,
   SeasonWrapper,
+  SeasonImgWrapper,
 } from "./SeasonListMob.styled";
 
 const SeasonListMob = () => {
@@ -31,7 +32,6 @@ const SeasonListMob = () => {
             <SeasonWrapper
               initial="hidden"
               whileInView="visible"
-              animate={{ pathLength: 1 }}
             >
               <SeasonTitle   transition={{ delay: 0.3 }}
                 variants={evenOrOddFunc(i, textAnimEven, textAnimOdd)}
@@ -43,12 +43,14 @@ const SeasonListMob = () => {
               >
                 {seasonDescription}
               </SeasonDesc>
+              <SeasonImgWrapper>
               <SeasonImg transition={{ delay: 0.3 }}
                 loading="lazy"
                 variants={evenOrOddFunc(i, imgAnimEven, imgAnimOdd)}
                 src={seasonImage}
                 alt={season}
               />
+              </SeasonImgWrapper>
             </SeasonWrapper>
           </SeasonItem>
         );
